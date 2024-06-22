@@ -27,7 +27,7 @@ const PortfolioBox = (props:PortfolioProps) => {
       Github
       </Link>
 
-      <Link href={urlDemo} target='_blank' className='p-2 transition duration-150 rounded-lg bg-secondary-500 hover:bg-secondary-500/80'>
+      <Link href={urlDemo} target='_blank' className='p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary-500/80'>
       Github
       </Link>
       </div>
