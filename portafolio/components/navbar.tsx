@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { itemsNavbar } from '@/data'
-import MotionTransition from './transition-component'
+import {MotionTransition} from './transition-component'
 const navbar = () => {
   const router =usePathname()
   return (
