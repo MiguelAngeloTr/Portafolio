@@ -8,11 +8,12 @@ const Header = () => {
       <header>
         <div className='container justify-between max-w-6xl mx-auto md: flex'>
           <Link href="/">
-          <h1 className='my-3 text-4xl font-bold text-center  md:text-left'>
-            Tarre
-            <span className='text-secondary'>
-            Dev
+          <h1 className='my-3 text-4xl font-bold text-center  md:text-left leading-tight'>
+            Miguel Angel  
+            <span className='block bg-gradient-to-r from-cyan-300 via-fuchsia-400 to-violet-400 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(168,85,247,0.45)]'>
+            Jimenez Trochez
             </span>
+            
           </h1>
           
           </Link>
