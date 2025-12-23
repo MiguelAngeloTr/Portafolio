@@ -1,16 +1,23 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Phone } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={40} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.instagram.com/miguelangelo.jt.priv?igsh=M2F5MHg4emRyeHJl",
     },
     {
         id: 2,
         logo: <Linkedin size={40} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/miguel-angel-jimenez-trochez-720596287",
     },
+    {
+        id: 3,
+        logo: <Phone size={40} strokeWidth={1} />,
+        src: "https://wa.me/qr/QLNG72RVVRWGC1",
+    },
+
+
    
     
     
