@@ -9,32 +9,44 @@ const SliderServices = () => {
   return (
     <Swiper
       breakpoints={{
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 15,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 15,
-        },
+        320: { slidesPerView: 1, spaceBetween: 10 },
+        768: { slidesPerView: 2, spaceBetween: 16 },
+        1024: { slidesPerView: 3, spaceBetween: 16 },
       }}
       freeMode={true}
-      pagination={{
-        clickable: true,
-      }}
+      pagination={{ clickable: true }}
       modules={[Pagination]}
-      className="h-[200px] md:h-[340px] w-[270px] md:w-[550px]" 
+      className="h-[240px] md:h-[360px] w-[290px] md:w-[620px]"
     >
       {serviceData.map((item, index) => (
         <SwiperSlide key={index}>
-          <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
-            <div className="mb-4 text-4xl text-gray-600">{item.icon}</div>
-            <h3 className="mb-4 text-lg">{item.title}</h3>
-            <p className="text-sm">{item.description}</p>
+          <div
+            className="
+              group relative h-auto md:h-[300px]
+              rounded-2xl border border-white/10
+              bg-white/5 backdrop-blur-md
+              px-6 py-7
+              transition-all duration-300
+              hover:bg-white/10 hover:border-cyan-400/20
+              hover:shadow-xl hover:shadow-cyan-500/10
+            "
+          >
+            {/* glow sutil */}
+            <div className="pointer-events-none absolute -inset-1 rounded-2xl bg-gradient-to-r from-cyan-400/10 via-sky-400/5 to-violet-400/10 opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-100" />
+
+            <div className="relative">
+              <div className="mb-4 text-4xl text-slate-200/80 transition-colors duration-300 group-hover:text-cyan-300">
+                {item.icon}
+              </div>
+
+              <h3 className="mb-3 text-lg font-bold text-slate-100">
+                {item.title}
+              </h3>
+
+              <p className="text-sm leading-relaxed text-slate-300">
+                {item.description}
+              </p>
+            </div>
           </div>
         </SwiperSlide>
       ))}
