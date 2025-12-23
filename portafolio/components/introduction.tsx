@@ -13,17 +13,17 @@ const Introduction = () => {
 
         <div className="flex flex-col justify-center max-w-xl">
           <h1 className="mb-6 text-4xl font-extrabold leading-tight text-center text-white md:text-left md:text-6xl">
-            Si puedes pensarlo,
+            Desarrollo de: 
             <TypeAnimation
               sequence={[
-                " puedes programarlo",
-                1000,
-                " puedes optimizarlo",
-                1000,
-                " puedes implementarlo",
-                1000,
-                " puedes desarrollarlo",
-                1000,
+                 " aplicaciones web modernas",
+                  1200,
+                  " APIs y backend escalable",
+                  1200,
+                  " analisis y preparacion datos para la toma de decisiones",
+                  1200,
+                  " dashboards interactivos en Power BI",
+                  1200,
               ]}
               wrapper="span"
               speed={50}

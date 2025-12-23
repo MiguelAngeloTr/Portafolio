@@ -96,37 +96,33 @@ export const dataAboutPage = [
   }
 ];
 
-
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 12,
-    text: "Tecnologías aplicadas",
+    text: "Frontend (React / Next.js)",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 6,
-    text: "Proyectos en portafolio",
+    text: "Backend (Node.js / APIs REST)",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 4,
-    text: "Dashboards en Power BI",
+    text: "Bases de datos (PostgreSQL / MongoDB)",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 5,
-    text: "Procesos ETL construidos",
+    text: "Analítica (Python / Power BI / ETL)",
     lineRight: false,
     lineRightMobile: false,
   },
 ];
+
 
 export const serviceData = [
   {
@@ -161,64 +157,63 @@ export const serviceData = [
   },
 ];
 
-
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+  {
+    id: 1,
+    title: "App de Cine en React (Consumo de API + Estado)",
+    image: "/portfolio-cine.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 2,
+    title: "Sistema de Gestión de Ecografías (Full Stack)",
+    image: "/portfolio-ecografias.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 3,
+    title: "Datathon BI-RADS: Clasificación de Densidad Mamaria",
+    image: "/portfolio-birads.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 4,
+    title: "ETL + Limpieza de Datos con Python (Pandas)",
+    image: "/portfolio-etl.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 5,
+    title: "Dashboard Interactivo en Power BI (KPIs y Reportes)",
+    image: "/portfolio-powerbi.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 6,
+    title: "Procesamiento de Datos con Apache Spark (Big Data)",
+    image: "/portfolio-spark.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 7,
+    title: "Backend API REST con Node.js + PostgreSQL",
+    image: "/portfolio-api.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
+  {
+    id: 8,
+    title: "Vortex Bird: Gamificación en Web (Proyecto Académico)",
+    image: "/portfolio-vortex.png",
+    urlGithub: "#!",
+    urlDemo: "#!",
+  },
 ];
 
 export const dataTestimonials = [

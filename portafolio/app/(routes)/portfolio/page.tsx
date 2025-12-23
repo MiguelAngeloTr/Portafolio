@@ -1,6 +1,4 @@
 "use client"
-import AvatarPortfolio from '@/components/imagen-perfil'
-import CircleImage from '@/components/circle-image'
 import ContainerPage from '@/components/container'
 import TransitionPage from '@/components/transition-page'
 import PortfolioBox from '@/components/portfolio-box'
